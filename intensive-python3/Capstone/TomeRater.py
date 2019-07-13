@@ -234,7 +234,6 @@ class TomeRater(object):
         return tmp_user
 
 #Validation methods
-
     def isbn_exists(self, isbn: int) -> int:
         if isbn in self.library:
             return True
